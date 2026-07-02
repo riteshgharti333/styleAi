@@ -112,19 +112,6 @@ export default function Navbar() {
             ) : (
               <>
                 <Link
-                  href="/login"
-                  className="group relative overflow-hidden rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300"
-                  style={{
-                    color: "var(--color-text-secondary)",
-                  }}
-                >
-                  <span className="relative z-10 group-hover:text-gray-900 transition-colors duration-300">
-                    Login
-                  </span>
-                  <div className="absolute inset-0 bg-gray-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
-                </Link>
-
-                <Link
                   href="/chat"
                   className="group relative overflow-hidden rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 px-5 py-2.5 text-sm font-medium text-white shadow-lg shadow-indigo-500/25 transition-all duration-500 hover:shadow-xl hover:shadow-indigo-500/40 hover:scale-105"
                 >

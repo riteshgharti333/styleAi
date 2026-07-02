@@ -24,9 +24,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${dmSans.variable} ${inter.variable}`}>
-      <Navbar />
-      <body>{children}</body>
-      <Footer />
+      <body>
+        <Navbar />
+        {children} <Footer />
+      </body>
     </html>
   );
 }
